@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/activemqdemo" />
+    <file type="web" url="file://$PROJECT_DIR$/elasticsearchdemo" />
+    <file type="web" url="file://$PROJECT_DIR$/hbasedemo" />
+    <file type="web" url="file://$PROJECT_DIR$/niodemo" />
+    <file type="web" url="file://$PROJECT_DIR$/rabbitmqdemo" />
+    <file type="web" url="file://$PROJECT_DIR$/rocketmqdemo" />
+    <file type="web" url="file://$PROJECT_DIR$/solrdemo" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/activemqdemo/pom.xml" />
+        <option value="$PROJECT_DIR$/elasticsearchdemo/pom.xml" />
+        <option value="$PROJECT_DIR$/hbasedemo/pom.xml" />
+        <option value="$PROJECT_DIR$/niodemo/pom.xml" />
+        <option value="$PROJECT_DIR$/rabbitmqdemo/pom.xml" />
+        <option value="$PROJECT_DIR$/rocketmqdemo/pom.xml" />
+        <option value="$PROJECT_DIR$/solrdemo/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_7" default="false" project-jdk-name="9.0" project-jdk-type="JavaSDK" />
+</project>
