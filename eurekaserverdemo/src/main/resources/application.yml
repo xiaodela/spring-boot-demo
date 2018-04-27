@@ -1,0 +1,129 @@
+##########
+
+##########
+server:
+   port: 8761
+
+eureka:
+   instance:
+       hostname: localhost
+   client:
+       registerWithEureka: false
+       fetchRegistry: false
+       serviceUrl:
+           defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
+####
+#spring:
+#    master:
+#        datasource:
+#          name: regist
+#          url: jdbc:mysql://192.168.62.62:3306/regist
+#          username: hcpiao
+#          password: 123456
+#          # 使用druid数据源
+#          type: com.alibaba.druid.pool.DruidDataSource
+#          driver-class-name: com.mysql.jdbc.Driver
+#          filters: stat
+#          maxActive: 20
+#          initialSize: 1
+#          maxWait: 60000
+#          minIdle: 1
+#          timeBetweenEvictionRunsMillis: 60000
+#          minEvictableIdleTimeMillis: 300000
+#          validationQuery: select 'x'
+#          testWhileIdle: true
+#          testOnBorrow: false
+#          testOnReturn: false
+#          poolPreparedStatements: true
+#          maxOpenPreparedStatements: 20
+#    slave:
+#        datasource:
+#          name: hcpiao
+#          url: jdbc:mysql://192.168.62.62:3306/hcpiao
+#          username: hcpiao
+#          password: 123456
+#          # 使用druid数据源
+#          type: com.alibaba.druid.pool.DruidDataSource
+#          driver-class-name: com.mysql.jdbc.Driver
+#          filters: stat
+#          maxActive: 20
+#          initialSize: 1
+#          maxWait: 60000
+#          minIdle: 1
+#          timeBetweenEvictionRunsMillis: 60000
+#          minEvictableIdleTimeMillis: 300000
+#          validationQuery: select 'x'
+#          testWhileIdle: true
+#          testOnBorrow: false
+#          testOnReturn: false
+#          poolPreparedStatements: true
+#          maxOpenPreparedStatements: 20
+#    jpa:
+#        database: MYSQL
+#        show-sql: true
+#        hibernate:
+#          ddl-auto: update
+#          naming-strategy: org.hibernate.cfg.ImprovedNamingStrategy
+#          properties:
+#            hibernate.dialect: org.hibernate.dialect.MySQL5Dialect
+#    thymeleaf:
+#        cache: false
+#        prefix: classpath:/templates/
+#        check-template-location: true
+#        suffix: .html
+#        encoding: UTF-8
+#        content-type: text/html
+#        mode: HTML5
+#    redis:
+#        database: 5
+#        host: 118.190.15.83
+#        port: 6379
+#        password: Hcpkuyou19e
+#        timeout: 10000
+#        pool:
+#          max-active: 2000
+#          max-idle: 300
+#          max-wait: 100000
+#          min-idle: 30
+#    elasticsearch:
+#        #cluster-name: #默认为elasticsearch
+#        #cluster-nodes: 127.0.0.1: #配置es节点信息，逗号分隔，如果没有指定，则启动ClientNode
+#        properties:
+#          path:
+#            logs: ./elasticsearch/log #elasticsearch日志存储目录
+#            data: ./elasticsearch/data #elasticsearch数据存储目录
+
+################################
+#mybatis:
+#    xml-locations: classpath:mybatis/xml/*.xml
+#    type-aliases-package: com.l9e.transaction.bean
+#    #加载全局的配置文件
+#    configLocation: classpath:mybatis-config.xml
+
+####
+#pagehelper分页插件
+#pagehelper:
+#    helperDialect: mysql
+#    reasonable: true
+#    supportMethodsArguments: true
+#    params: count=countSql
+
+#######
+###################################################################################
+logging:
+    level:
+      com.l9e.transaction.mapper: DEBUG
+      org.springframework: WARN
+      org.spring.springboot.dao: DEBUG
+###################################################################################
+
+
+
+
+
+
+
+
+
+
+
