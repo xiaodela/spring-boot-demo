@@ -16,7 +16,7 @@ import javax.jms.ConnectionFactory;
 public class Subscriber {
 
     @Bean
-    JmsListenerContainerFactory<?> myJmsContainerFactory(ConnectionFactory connectionFactory){
+    JmsListenerContainerFactory<?> myJmsContainerFactory(ConnectionFactory connectionFactory) {
         SimpleJmsListenerContainerFactory factory = new SimpleJmsListenerContainerFactory();
         factory.setConnectionFactory(connectionFactory);
         factory.setPubSubDomain(true);
