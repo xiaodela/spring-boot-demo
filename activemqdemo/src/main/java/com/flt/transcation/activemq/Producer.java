@@ -1,28 +1,25 @@
 package com.flt.transcation.activemq;
 
 import org.apache.activemq.command.ActiveMQQueue;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jms.core.JmsMessagingTemplate;
 import org.springframework.stereotype.Service;
 
+import javax.annotation.Resource;
 import javax.jms.Destination;
 
 /**
- * @author meizs
- * @create 2018-04-27 16:53
- **/
+ * @author Administrator
+ * @date 2018/4/27 20:36
+ */
 @Service
 public class Producer {
 
-
-    @Autowired
+    @Resource
     private JmsMessagingTemplate jmsMessagingTemplate;
 
-    public void sendMessage(String destinationName, final String message) {
-        System.out.println(message);
+    public void sendMsg(String destinationName, String message) {
+        System.out.println("============>>>>> 发送queue消息 " + message);
         Destination destination = new ActiveMQQueue(destinationName);
         jmsMessagingTemplate.convertAndSend(destination, message);
     }
-
-
 }

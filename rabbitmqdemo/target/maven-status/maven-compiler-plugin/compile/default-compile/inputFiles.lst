@@ -1,0 +1,12 @@
+E:\workspace\15\rockmqdemo\src\main\java\com\flt\bl\job\ScheduledTasks.java
+E:\workspace\15\rockmqdemo\src\main\java\com\flt\AppMain.java
+E:\workspace\15\rockmqdemo\src\main\java\com\flt\bl\processor\HelloProcessor.java
+E:\workspace\15\rockmqdemo\src\main\java\com\flt\bl\service\impl\MessageQueueServiceImpl.java
+E:\workspace\15\rockmqdemo\src\main\java\com\flt\constant\MQConstant.java
+E:\workspace\15\rockmqdemo\src\main\java\com\jimmy\demo\test\Reqv.java
+E:\workspace\15\rockmqdemo\src\main\java\com\flt\config\RabbitMQConfiguration.java
+E:\workspace\15\rockmqdemo\src\main\java\com\flt\bl\processor\TradeProcessor.java
+E:\workspace\15\rockmqdemo\src\main\java\com\flt\bl\bean\DLXMessage.java
+E:\workspace\15\rockmqdemo\src\main\java\com\flt\config\QueueConfiguration.java
+E:\workspace\15\rockmqdemo\src\main\java\com\flt\bl\service\IMessageQueueService.java
+E:\workspace\15\rockmqdemo\src\main\java\com\jimmy\demo\test\Send.java

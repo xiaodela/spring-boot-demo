@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="rockmqdemo:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="rockmqdemo.war">
+      <element id="artifact" artifact-name="rockmqdemo:war exploded" />
+    </root>
+  </artifact>
+</component>
